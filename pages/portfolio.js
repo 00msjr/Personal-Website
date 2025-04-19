@@ -3,10 +3,7 @@ import { WorkGridItem } from '../components/grid-item'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 
-import thumbHappyCat from '../public/images/happycat.png'
-import thumbLinkPage from '../public/images/linkpage.png'
-import thumbNolePatrol from '../public/images/np.png'
-import thumbFileOperator from '../public/images/fileoperator.png'
+
 
 const Portfolio = () => {
   return (
@@ -21,7 +18,6 @@ const Portfolio = () => {
             <WorkGridItem
               id="nole-patrol"
               title="Nole Patrol"
-              thumbnail={thumbNolePatrol}
             >
               Data breach search engine for FSU emails
             </WorkGridItem>
@@ -30,7 +26,6 @@ const Portfolio = () => {
             <WorkGridItem
               id="happy-cat"
               title="Happy Cat"
-              thumbnail={thumbHappyCat}
             >
               Bash script that motivates you
             </WorkGridItem>
@@ -40,7 +35,6 @@ const Portfolio = () => {
             <WorkGridItem
               id="link-page-app"
               title="Personal Link Page"
-              thumbnail={thumbLinkPage}
             >
               Link-in-bio app
             </WorkGridItem>
@@ -50,9 +44,44 @@ const Portfolio = () => {
             <WorkGridItem
               id="fileoperator"
               title="fileoperator"
-              thumbnail={thumbFileOperator}
             >
               Python file operations package
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem
+              id="drako"
+              title="Drako"
+            >
+              A better linux mkdir command
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem
+              id="shush"
+              title="Shush"
+            >
+              A CLI tool to silence any output
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem
+              id="nvim-fountain"
+              title="Neovim Fountain"
+            >
+              An updated Neovim plugin to write screenplays from neovim
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem
+              id="catppuccin-image-converter"
+              title="Catppuccin Image Converter"
+            >
+              A WebApp to apply a pastel filter on any image
             </WorkGridItem>
           </Section>
 
